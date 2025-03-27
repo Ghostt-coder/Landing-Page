@@ -1,0 +1,56 @@
+*{
+    font-family:cursive;
+}
+
+
+header{
+    margin: 25px 100px;
+}
+
+
+body{
+    background-image: url('landscape-forest-deer-artwork-wallpaper-preview.jpg');
+    background-size: cover;
+}
+
+ul{
+    display : flex;  
+    align-items:center;
+    list-style : none;
+    gap : 15px;
+    font-size: 1.2em;
+}
+
+li{
+    font-weight : 500;
+
+}
+
+#li-one{
+    margin-right:auto;
+    font-size:2.5em;
+    font-weight : 900;
+}
+
+.nav{
+    margin-bottom:100px;
+}
+
+.header-pt-2{
+    display: flex;
+}
+.right{
+    
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.placeholder {
+    height: 35px;
+    width: 493px;
+}
+
+p {
+    font-size: 22px;
+}
