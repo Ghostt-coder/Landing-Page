@@ -4,13 +4,20 @@
 
 
 header{
-    margin: 25px 100px;
+    margin: 0px 100px;
+}
+
+.body-1{
+    background-image: url('landscape-forest-deer-artwork-wallpaper-preview.jpg');
+    background-size: cover;
+    margin:0;
+    height :530px;
 }
 
 
 body{
-    background-image: url('landscape-forest-deer-artwork-wallpaper-preview.jpg');
-    background-size: cover;
+
+    margin:0;
 }
 
 ul{
@@ -19,6 +26,7 @@ ul{
     list-style : none;
     gap : 15px;
     font-size: 1.2em;
+    margin: 0;
 }
 
 li{
@@ -42,15 +50,125 @@ li{
 .right{
     
     display:flex;
-    justify-content:center;
+    /* justify-content:center; */
     align-items:center;
+    backdrop-filter: blur(77px);
 }
 
 .placeholder {
     height: 35px;
     width: 493px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
 
 p {
     font-size: 22px;
 }
+
+button {
+    height: 40px;
+    width: 100px;
+    border-radius: 15px;
+    font-size: 16px;
+    background-color: #34435b;
+    color: white;
+}
+
+.body-2{
+    display:flex;
+    justify-content : center;
+    margin: 25px 100px;
+    margin-top: 55px;
+    margin-bottom : 100px;
+}
+
+.info{
+    margin:20px;
+    display : flex;
+    justify-content: center;
+}
+
+.info>h1{
+    font-size:35px;
+    margin: auto;
+    font-weight:400;
+}
+
+.box-1{
+    border: 7px solid #3ca3c5;
+    height: 175px;
+    width: 175px;
+    border-radius: 25px;
+}
+
+.boxes{
+    display : flex;
+     justify-content :space-around;
+    gap: 45px
+}
+
+.biggerBox {
+    /* border: 2px solid black; */
+    /* height: 50px; */
+    width: 187px;
+}
+
+.biggerBox>p{
+    font-size: 14px;
+    font-weight : 200px;
+}
+
+.body-3{
+    background-color: #dcdcdd;
+    height : 400px;
+    display: flex;
+    justify-content : center;
+    align-items: center;
+}
+
+.quote{
+   width:950px;
+   
+}
+.quote>p{
+    font-style: italic;
+}
+.quote>span{
+    /* text-align: right;------------------------------------------------------------------------------------- */
+    font-weight: 600;
+}
+
+
+.body-4{
+    background-color: #34435b;
+    height : 300px;
+    display: flex;
+    justify-content : center;
+    align-items: center;
+}
+
+.signUp{
+    padding:5px;
+    background-color: #bcccdc;
+    /* border:2px solid black; */
+    border-radius: 10px;
+    display: flex;
+    justify-content :space-around;
+    align-items: center;
+    width:923px
+}
+
+.footer{
+    background-color: #333334;
+    height : 100px;
+}
+
+.footer{
+    display: flex;
+    justify-content : center;
+    align-items: center;
+    color:white;
+}
+
